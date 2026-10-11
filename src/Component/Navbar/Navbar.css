@@ -1,0 +1,32 @@
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(218, 216, 216);
+    padding: 1rem;
+    padding-bottom: 1.3rem;
+}
+
+.imgnav{
+    background-size: cover;
+    height: 30px;
+}
+.divnav{
+    display: flex;
+    gap: 1rem;
+    
+}
+.divnav a{
+ text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+.Nav-btn{
+    background-color: rgb(122, 4, 122);
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+}
+@media (max-width: 700px) {
+  .Nav { align-items: center; padding: .85rem 1rem; }.imgnav { height: 25px; }.divnav { display: none; }.Nav-btn { padding: .45rem .8rem; font-size: .88rem; }
+}
